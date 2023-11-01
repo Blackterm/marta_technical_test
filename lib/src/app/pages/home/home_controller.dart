@@ -20,7 +20,7 @@ class HomeController extends Controller {
   WeatherForecast? weatherForecast;
   List<CityLocation>? usersList;
 
-  var deneme = '';
+  var _cityName = '';
 
   late String name = "";
 
@@ -29,9 +29,11 @@ class HomeController extends Controller {
 
   @override
   void onInitState() async {
-    database.get('cityName') != null ? deneme = database.get('cityName') : null;
+    database.get('cityName') != null
+        ? _cityName = database.get('cityName')
+        : _cityName = 'Ankara';
 
-    _presenter.getCityLocation(deneme);
+    _presenter.getCityLocation(_cityName);
   }
 
   @override
