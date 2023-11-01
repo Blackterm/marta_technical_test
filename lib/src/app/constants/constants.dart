@@ -23,3 +23,7 @@ final textStyleWithShadow = TextStyle(color: Colors.white, shadows: [
     offset: const Offset(0, 2),
   )
 ]);
+
+final iconData = (String iconUrl) {
+  return "https://openweathermap.org/img/wn/${iconUrl}@2x.png";
+};

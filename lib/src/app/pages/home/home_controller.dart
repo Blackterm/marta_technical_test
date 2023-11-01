@@ -22,11 +22,6 @@ class HomeController extends Controller {
 
   var _cityName = '';
 
-  late String name = "";
-
-  final String latitude = "38.72581162568715";
-  final String longitude = "35.481688412688065";
-
   @override
   void onInitState() async {
     database.get('cityName') != null
@@ -72,13 +67,13 @@ class HomeController extends Controller {
     };
 
     _presenter.getWeatherDataOnError = (e) {
-      print('hata');
+      print(e);
     };
     _presenter.getWeatherForecastOnError = (e) {
-      print('hata');
+      print(e);
     };
     _presenter.getCityLocationOnError = (e) {
-      print('hata');
+      print(e);
     };
   }
 

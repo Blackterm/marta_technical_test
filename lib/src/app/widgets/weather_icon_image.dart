@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:marta_technical_test/src/app/constants/constants.dart';
 
 class WeatherIconImage extends StatelessWidget {
   const WeatherIconImage({Key? key, required this.iconUrl, required this.size})
@@ -10,7 +11,7 @@ class WeatherIconImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CachedNetworkImage(
-      imageUrl: "https://openweathermap.org/img/wn/${iconUrl}@2x.png",
+      imageUrl: iconData(iconUrl),
       width: size,
       height: size,
     );
