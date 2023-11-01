@@ -19,4 +19,3 @@ A new Flutter project.
 
 - [hive](https://pub.dev/packages/hive)
 
-(https://raw.githubusercontent.com/Blackterm/marta_technical_test/main/assets/appScreenshot/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202023-11-01%20at%2018.32.19.png?token=GHSAT0AAAAAACJWITIV3W4376YDZPS7AGISZKCPN5Q)
