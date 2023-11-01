@@ -20,7 +20,7 @@ A new Flutter project.
 - [hive](https://pub.dev/packages/hive)
 
 ## Screenshot
-
+<img src="[https://cloud.githubusercontent.com/assets/yourgif.gif](https://github.com/Blackterm/marta_technical_test/assets/59890493/a52c67fe-f199-45ae-8257-93f68e2beb4f)" width="250" height="350">
 ![Simulator Screenshot ](https://github.com/Blackterm/marta_technical_test/assets/59890493/a52c67fe-f199-45ae-8257-93f68e2beb4f)
 
 ![Simulator Screenshot ](https://github.com/Blackterm/marta_technical_test/assets/59890493/95862f8f-8d0a-4ed4-bfb0-efcab3ed5515)
